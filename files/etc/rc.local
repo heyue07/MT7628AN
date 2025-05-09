@@ -4,8 +4,8 @@ gcom -d /dev/ttyUSB0 -s /proc/self/fd/0 << EOF
 opengt
  set com 115200n81
  set comecho off
- set senddelay 0.02
- waitquiet 0.2 0.2
+ set senddelay 0.05
+ waitquiet 0.5 0.5
  flash 0.1
 
 :start
