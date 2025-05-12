@@ -166,8 +166,8 @@
 	"thinkwill": {
 		"initialize": [
 			"AT+CFUN=1",
-			"AT+ZGACT=0,${profile}",
-			"AT+CGACT=0,${profile}"
+			"AT+ZGACT=1,${profile}",
+			"AT+CGACT=1,${profile}"
 		],
 		"configure": [
 			"AT+CGDCONT=${profile},\\\"${pdptype}\\\"${apn:+,\\\"$apn\\\"}"
