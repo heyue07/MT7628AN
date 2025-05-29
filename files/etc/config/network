@@ -27,19 +27,19 @@ config switch
 
 config device
 	option name 'eth1'
+	option macaddr '0a:1b:2c:3d:4f:5e'
 	option mtu '1400'
-	option macaddr '86:96:81:02:98:22'
 
 config interface 'wan'
 	option proto 'dhcp'
 	option device 'eth1'
 	option metric '101'
 
-config interface 'trm_wwan'
+config interface 'trw_wwan'
 	option proto 'dhcp'
 	option metric '100'
 
-config interface 'trm_wwan6'
-	option device '@trm_wwan'
+config interface 'trw_wwan6'
+	option device '@trw_wwan'
 	option proto 'dhcpv6'
 

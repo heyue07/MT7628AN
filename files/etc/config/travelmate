@@ -7,7 +7,7 @@ config travelmate 'global'
 	option trm_mail '0'
 	option trm_debug '0'
 	option trm_enabled '1'
-	option trm_iface 'trm_wwan'
+	option trm_iface 'trw_wwan'
 
 config uplink
 	option enabled '1'
@@ -15,6 +15,5 @@ config uplink
 	option ssid 'BI4PCS'
 	option con_start_expiry '0'
 	option con_end_expiry '0'
-	option con_start '2025.05.29-14:57:29'
-	option con_end '2025.05.29-15:04:21'
+	option con_start '2025.05.29-23:06:51'
 

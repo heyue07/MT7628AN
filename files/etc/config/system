@@ -21,6 +21,7 @@ config imm_init
 	option lang '1'
 	option anon_mount '1'
 	option system_chn '1'
+	option ipv6 '1'
 
 config led
 	option name '4G'

@@ -20,6 +20,8 @@ config zone
 	list network 'wan'
 	list network 'wan6'
 	list network 'wwan'
+	list network 'trw_wwan'
+	list network 'trw_wwan6'
 	option input 'ACCEPT'
 	option forward 'ACCEPT'
 
